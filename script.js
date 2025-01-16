@@ -1,17 +1,17 @@
 function add(a, b){
-    return Number(a) + Number(b);
+    return (Number(a) + Number(b)).toFixed(10);
 }
 
 function subtract(a, b){
-    return a - b;
+    return (a - b).toFixed(10);
 }
 
 function multiply(a, b){
-    return a * b;
+    return (a * b).toFixed(10);
 }
 
 function devide(a, b){
-    return a / b;
+    return (a / b).toFixed(10);
 }
 
 function equal(){
